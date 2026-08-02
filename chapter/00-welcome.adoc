@@ -1,0 +1,278 @@
+[preface]
+== Welcome to Your MMBasic Journey
+
+image::images/00_welcome.jpg[align=center]
+
+Welcome to **My First MMBasic Program**.
+
+This tutorial is for anyone who wants to learn MMBasic and create their own programs.
+
+It doesn't matter whether you already have programming experience or are using a programming language for the very first time. This book will guide you step by step through the fascinating world of MMBasic.
+
+=== What is MMBasic?
+
+MMBasic is a modern BASIC programming language designed for microcontrollers and computer systems.
+
+It combines the simplicity of traditional BASIC dialects with the capabilities of today's hardware.
+
+MMBasic is available for several platforms, including:
+
+* PicoMite
+* PicoMite VGA
+* PicoMite HDMI
+* Colour Maximite 2
+
+With MMBasic you can develop much more than simple console applications. Typical projects include:
+
+* Graphical applications
+* Games
+* Hardware projects
+* Measurement and control systems
+* Network applications
+
+Whether you want to blink an LED, create your own game, or build a complete embedded project, MMBasic provides a powerful yet easy-to-learn environment.
+
+=== The People Behind MMBasic
+
+MMBasic was originally created by **Geoff Graham** for the Maximite, a small computer that boots directly into a BASIC command prompt.
+
+Later, **Peter Mather** extended MMBasic to support several additional platforms, including the Colour Maximite 2 and the PicoMite family based on the Raspberry Pi Pico and Pico 2.
+
+Without their many years of development, excellent documentation, and continuous firmware improvements, this tutorial would not have been possible.
+
+=== Which MMBasic Platform Should You Choose?
+
+One of MMBasic's greatest strengths is that it is not tied to a single computer.
+
+Today it runs on a wide range of systems, from a simple Raspberry Pi Pico connected to a terminal all the way to powerful standalone computers with graphics, sound, USB, and SD card support.
+
+If you're just getting started, the following overview may help you decide which platform best suits your needs.
+
+[cols="2,2,1,1,2",options="header"]
+|===
+|Platform |Required Hardware |Graphics |GPIO |Best Suited For
+
+|MMBasic for Windows (MMB4W)
+|Windows PC
+|Yes
+|No
+|Learning the language without additional hardware.
+
+|MMBasic for Linux (MMB4L)
+|Linux PC or Raspberry Pi
+|Yes
+|No
+|Linux users who want to explore MMBasic.
+
+|DOS MMBasic
+|DOS PC or DOSBox
+|Text only
+|No
+|Classic DOS systems and DOSBox.
+
+|Raspberry Pi Pico + Terminal
+|Pico and USB cable
+|Text only
+|Yes
+|First experiments with hardware programming.
+
+|PicoMite VGA or HDMI
+|PicoMite system
+|Yes
+|Yes
+|Recommended platform for this tutorial.
+
+|Colour Maximite 2
+|Colour Maximite 2
+|Yes
+|Yes
+|A powerful all-in-one MMBasic computer.
+|===
+
+Throughout this tutorial, the **PicoMite** will be used as the primary reference platform.
+
+However, most example programs also run on other MMBasic systems with little or no modification.
+
+TIP: If your main goal is to learn the MMBasic language, you can begin immediately with **MMB4W**, **MMB4L**, or **DOS MMBasic** on your existing computer. The hardware projects in the later chapters require a system with GPIO pins, such as a PicoMite.
+
+=== Choosing the Right Platform
+
+If you're mainly interested in learning the MMBasic programming language, MMB4W, MMB4L, or DOS MMBasic are excellent starting points.
+
+If you also want to connect LEDs, push buttons, sensors, and other electronic components, a **PicoMite** is the best choice. All hardware examples in this tutorial have been developed and tested on a PicoMite system.
+
+If you already own a **Colour Maximite 2**, you'll also be able to run most examples without modification or with only minor adjustments.
+
+=== Why This Tutorial?
+
+Many programming books focus mainly on explaining individual commands and language features.
+
+This tutorial takes a different approach.
+
+Instead of learning isolated commands, we'll develop practical programs and projects together. Along the way, you'll discover the language naturally, one step at a time.
+
+Starting with simple text output, we'll gradually work our way towards:
+
+* Graphical applications
+* Games
+* Hardware projects
+* Electronic experiments
+
+The goal is not simply to memorize commands, but to understand how many small building blocks can be combined to create larger and more interesting programs.
+
+=== Learning Through Practical Projects
+
+Many of the examples in this tutorial are based on real-world projects and personal experience.
+
+Among them are:
+
+* Little Professor
+* Pong
+* Traffic Light Controller
+* Hardware experiments using LEDs and push buttons
+* Senso – The Electronic Memory Game
+
+Each new project builds on concepts introduced in earlier chapters.
+
+This gradual approach helps you develop a solid understanding of MMBasic while creating programs that become more interesting with every chapter.
+
+=== How This Book Is Organized
+
+This tutorial is designed to guide you step by step through the MMBasic programming language.
+
+We'll begin with simple commands and small programs before moving on to more advanced topics such as:
+
+* Variables
+* Loops
+* Subroutines and Functions
+* Graphics Programming
+* Games
+* File Handling
+* Hardware Projects
+* Development Tools
+
+Most chapters build upon concepts introduced earlier.
+
+For that reason, beginners are encouraged to work through the tutorial in the order in which it is presented.
+
+=== Working with MMBasic
+
+One of MMBasic's most attractive features is its interactive command prompt.
+
+Immediately after starting MMBasic, you'll see a prompt similar to this:
+
+[source]
+----
+>
+----
+
+At this prompt, you can type BASIC commands and execute them immediately.
+
+For example:
+
+[source,basic]
+----
+PRINT "Hello World"
+----
+
+After pressing **Enter**, MMBasic instantly displays the result:
+
+[source]
+----
+Hello World
+----
+
+Many of the examples in the first chapters can therefore be tried directly at the command prompt without creating a complete program.
+
+This immediate feedback is one of MMBasic's greatest strengths. You can experiment freely, try new commands, make mistakes, and instantly see what happens. It's one of the fastest and most enjoyable ways to learn a programming language.
+
+=== Commands and Programs
+
+In the first chapters, you'll often enter individual commands directly at the MMBasic prompt.
+
+Later, you'll combine these commands into complete BASIC programs that can be saved, loaded, and improved over time.
+
+This approach allows you to focus on one new concept at a time without becoming overwhelmed.
+
+As your knowledge grows, so will your programs.
+
+You'll soon discover that even complex applications are built from many small, easy-to-understand pieces.
+
+=== Don't Be Afraid of Making Mistakes
+
+One of the best ways to learn programming is through experimentation.
+
+Try changing the examples.
+
+Modify numbers.
+
+Replace text.
+
+Add your own ideas.
+
+Sometimes your program won't work the way you expected—and that's perfectly normal.
+
+Even experienced programmers make mistakes every day.
+
+The important part isn't avoiding mistakes; it's understanding why they happened and learning how to fix them.
+
+Every error teaches you something new.
+
+=== Practice Is the Key
+
+Reading about programming is useful.
+
+Writing programs yourself is even better.
+
+Whenever you finish a chapter, take a few minutes to experiment with the examples before moving on.
+
+Ask yourself questions such as:
+
+* What happens if I change this value?
+* Can I make the program shorter?
+* Can I add another feature?
+* Can I improve the output?
+
+Programming is a practical skill.
+
+The more you experiment, the more confident you'll become.
+
+=== Your Goal
+
+By the time you've completed this tutorial, you won't just know the syntax of MMBasic—you'll understand how to solve problems with it.
+
+You'll be able to:
+
+* write your own programs
+* create graphical applications
+* develop simple games
+* control electronic hardware
+* structure larger projects
+* continue learning on your own
+
+Most importantly, you'll have the confidence to turn your own ideas into working programs.
+
+=== Let's Get Started!
+
+Programming is an exciting journey.
+
+Every chapter introduces new concepts, new ideas, and new possibilities.
+
+Take your time.
+
+Experiment.
+
+Have fun.
+
+And remember:
+
+Every experienced programmer once wrote their very first program.
+
+Let's begin!
+
+image::images/00_hello.jpg[align=center]
+
+[quote]
+____
+"The best way to learn programming is to write programs."
+____
