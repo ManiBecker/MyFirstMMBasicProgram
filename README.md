@@ -16,3 +16,19 @@ introduces the language using many practical examples.
 - Complete example programs
 - Works with PicoMite and Colour Maximite
 - Written in AsciiDoc
+
+## Contributing
+
+Contributions are welcome!
+
+If you find a mistake, discover an unclear explanation, or have an idea for improving the tutorial, feel free to:
+
+* Open an issue
+* Submit a pull request
+* Suggest new examples
+* Improve the English wording
+* Report bugs or incorrect information
+
+Whether you are a beginner or an experienced MMBasic programmer, every contribution is appreciated.
+
+Please keep the examples simple and beginner-friendly whenever possible.
