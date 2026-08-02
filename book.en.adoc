@@ -8,7 +8,7 @@ Manfred Becker
 :icons: font
 :revnumber: 0.1
 :revdate: 2026-08-02
-:github-programme: https://github.com/ManiBecker/MyFirstMMBasicProgram/blob/main/programs
+:github-programs: https://github.com/ManiBecker/MyFirstMMBasicProgram/blob/main/programs
 
 image::images/cover.en.jpg[pdfwidth=100%,align=center]
 
