@@ -73,6 +73,8 @@ include::chapter/00-welcome.adoc[]
 
 = Part I – Getting Started
 
+include::chapter/01-hello-world.adoc[]
+
 = Part II – Building Larger Programs
 
 = Part III – Graphics and Games
