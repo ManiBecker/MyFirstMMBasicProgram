@@ -37,5 +37,17 @@ Questions, suggestions, and comments are always welcome.
 
 If something is confusing or could be explained better, please open an issue on GitHub. Your feedback helps make this tutorial more useful for everyone.
 
+## Project Structure
+
+To keep the project organized, the repository uses the following documents:
+
+* **README.md** – Project overview and getting started
+* **CONTRIBUTING.md** – How to contribute to the project
+* **TODO.md** – Current tasks and work in progress
+* **ROADMAP.md** – Planned milestones and future development
+* **CHANGELOG.md** *(coming later)* – History of completed changes and releases
+
+This structure follows the conventions used by many well-maintained open-source projects and makes it easy for contributors to find the information they need.
+
 
 Please keep the examples simple and beginner-friendly whenever possible.
