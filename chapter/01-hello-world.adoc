@@ -1,0 +1,116 @@
+== Hello World!
+
+image::images/01_hello_world.jpg[align=center]
+
+=== What You'll Learn
+
+In this chapter, you'll learn:
+
+* what a simple MMBasic program looks like
+* how to run a program
+* how to display text on the screen
+
+By the end of this chapter, you'll have written and executed your very first MMBasic program.
+
+=== Your First Program
+
+Enter the following program:
+
+[source,basic]
+----
+PRINT "Hello World!"
+----
+
+Now run the program.
+
+The screen will display:
+
+[source]
+----
+Hello World!
+----
+
+Congratulations!
+
+You've just written and executed your first MMBasic program.
+
+=== Understanding the Program
+
+Let's take a closer look:
+
+[source,basic]
+----
+PRINT "Hello World!"
+----
+
+The `PRINT` command displays text on the screen.
+
+Everything enclosed in quotation marks is printed exactly as it appears.
+
+You can replace the text with anything you like.
+
+For example:
+
+[source,basic]
+----
+PRINT "Hello MMBasic!"
+----
+
+or
+
+[source,basic]
+----
+PRINT "I'm programming a PicoMite."
+----
+
+=== Experiment!
+
+Now it's your turn.
+
+Change the text between the quotation marks and see what happens.
+
+Try examples such as:
+
+[source,basic]
+----
+PRINT "Hello Colour Maximite!"
+----
+
+[source,basic]
+----
+PRINT "Today I'm learning MMBasic."
+----
+
+Can you think of your own message?
+
+=== Try It Yourself
+
+Complete the following exercises:
+
+. Display your name.
+. Display the name of your hometown.
+. Print a greeting for a friend.
+. Display three different messages one after another.
+
+Example:
+
+[source,basic]
+----
+PRINT "Hello World!"
+PRINT "Welcome to MMBasic!"
+PRINT "Have fun programming!"
+----
+
+=== Summary
+
+In this chapter, you've learned your first MMBasic command: `PRINT`.
+
+The `PRINT` command displays text on the screen.
+
+In the next chapter, you'll learn how to use MMBasic as a calculator and perform your first calculations.
+
+=== Example Program
+
+You can find the complete BASIC program here:
+
+* {github-programs}/01_hello_world.bas[01_hello_world.bas]
