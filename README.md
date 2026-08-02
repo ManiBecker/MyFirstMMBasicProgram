@@ -31,4 +31,11 @@ If you find a mistake, discover an unclear explanation, or have an idea for impr
 
 Whether you are a beginner or an experienced MMBasic programmer, every contribution is appreciated.
 
+## Feedback
+
+Questions, suggestions, and comments are always welcome.
+
+If something is confusing or could be explained better, please open an issue on GitHub. Your feedback helps make this tutorial more useful for everyone.
+
+
 Please keep the examples simple and beginner-friendly whenever possible.
