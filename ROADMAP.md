@@ -2,103 +2,155 @@
 
 This roadmap outlines the planned development of the **My First MMBasic Program** project.
 
-The roadmap is intended as a guide and may change as the project evolves.
+The roadmap reflects the current vision of the project and may evolve as new ideas and contributions are added.
 
 ---
 
-## Version 0.1 – Project Setup
+## Milestone 1 – Project Foundation
 
 ### Goals
 
-* Create the GitHub repository
-* Define the project structure
-* Publish the initial documentation
-* Add contribution guidelines
-* Establish the development workflow
+- [ ] Create the GitHub repository
+- [ ] Establish the project structure
+- [ ] Publish the initial documentation
+- [ ] Add contribution guidelines
+- [ ] Define the development workflow
 
-Status: 🚧 In Progress
+**Status:** 🚧 In Progress
 
 ---
 
-## Version 0.2 – Beginner Tutorial
+## Milestone 2 – Getting Started
 
 ### Goals
 
-* Complete Part I – Getting Started
-* Publish all beginner examples
-* Review and test all sample programs
+Complete **Part I – Getting Started**
+
+Topics include:
+
+- [ ] Hello World
+- [ ] Calculations
+- [ ] Variables
+- [ ] User Input
+- [ ] IF Statements
+- [ ] FOR...NEXT Loops
+- [ ] Random Numbers
+- [ ] Number Guessing Game
 
 ---
 
-## Version 0.3 – Structured Programming
+## Milestone 3 – Structured Programming
 
 ### Goals
 
-* Complete Part II
-* Introduce SUB and FUNCTION
-* Add arrays and string handling
-* Develop the Little Professor project
+Complete **Part II – Building Larger Programs**
+
+Topics include:
+
+- [ ] SUB and FUNCTION
+- [ ] Arrays
+- [ ] Strings
+- [ ] File Handling
+- [ ] Little Professor Project
 
 ---
 
-## Version 0.4 – Graphics and Games
+## Milestone 4 – Graphics and Games
 
 ### Goals
 
-* Complete Part III
-* Introduce graphics programming
-* Explain animation techniques
-* Develop complete game examples
+Complete **Part III – Graphics and Games**
+
+Topics include:
+
+- [ ] Graphics Modes
+- [ ] Drawing Shapes
+- [ ] Animation
+- [ ] Framebuffers
+- [ ] Pong
+- [ ] Complete Game Examples
 
 ---
 
-## Version 0.5 – Hardware Programming
+## Milestone 5 – Hardware Programming
 
 ### Goals
 
-* Complete Part IV
-* Digital and analog I/O
-* PWM and sound
-* Practical electronics projects
+Complete **Part IV – Hardware and Electronics**
+
+Topics include:
+
+- [ ] Digital I/O
+- [ ] LEDs
+- [ ] Buttons and Switches
+- [ ] Traffic Lights
+- [ ] Analog Inputs
+- [ ] PWM
+- [ ] Sound
+- [ ] Electronic Projects
 
 ---
 
-## Version 0.6 – Development Tools
+## Milestone 6 – Development Tools
 
 ### Goals
 
-* Complete Parts V and VI
-* Programming workflow
-* Working with files
-* SD card support
-* Project organization
+Complete **Parts V and VI**
+
+Topics include:
+
+- [ ] Built-in Editor
+- [ ] MMEdit
+- [ ] Saving Programs
+- [ ] SD Card
+- [ ] CHAIN
+- [ ] Project Organization
 
 ---
 
-## Version 1.0 – First Complete Release
+## Milestone 7 – Advanced Programming
 
 ### Goals
 
-* Complete Part VII
-* Final proofreading
-* Review all example programs
-* Complete English documentation
-* Stable first public release
+Complete **Part VII – Advanced Techniques**
+
+Topics include:
+
+- [ ] OPTION Commands
+- [ ] Interrupts
+- [ ] Date and Time
+- [ ] Serial Communication
+- [ ] WS2812 RGB LEDs
+- [ ] Game Controllers
+- [ ] Sprites and BLIT
+- [ ] Developing a Complete Game
 
 ---
 
-## Future Plans
+## Milestone 8 – Version 1.0 Release
+
+### Goals
+
+- [ ] Complete all planned chapters
+- [ ] Review all example programs
+- [ ] Final proofreading
+- [ ] Verify all code examples
+- [ ] Publish the first stable release
+
+---
+
+## Future Ideas
 
 Possible future enhancements include:
 
-* Additional programming projects
-* More complete games
-* Video tutorials
-* Interactive exercises
-* Community-contributed examples
-* Printable PDF editions
-* Additional hardware projects
+- Interactive exercises
+- Additional programming projects
+- More complete games
+- Community-contributed examples
+- Video tutorials
+- Printable PDF edition
+- Support for additional MMBasic platforms
 
 ---
 
-The roadmap reflects the current vision of the project and may be updated as new ideas and contributions are added.
+> **Note:** This roadmap is a living document and will be updated as the project progresses.
