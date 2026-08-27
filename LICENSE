@@ -1,21 +1,35 @@
+LICENSE
+
+This repository uses different licenses for the documentation and the included example programs.
+
+TUTORIAL AND DOCUMENTATION
+
+Unless otherwise stated, all text, chapters, and other documentation content in this project are licensed under the:
+
+Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0)
+
+Copyright (c) Manfred Becker
+
+The full license terms can be found in:
+
+LICENSE-CC-BY-SA-4.0
+
+MMBASIC EXAMPLE PROGRAMS
+
+Unless otherwise stated in the individual file, the MMBasic example programs (*.bas) contained in this repository are licensed under the:
+
 MIT License
 
-Copyright (c) 2026 ManiBecker
+Copyright (c) Manfred Becker
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+The full license terms can be found in:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+LICENSE-MIT
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+CONTRIBUTIONS
+
+By submitting a contribution to this repository, you agree that your contribution will be licensed under the license applicable to the respective part of the project:
+
+* Documentation contributions under CC BY-SA 4.0
+* MMBasic example program contributions under the MIT License
