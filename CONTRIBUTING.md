@@ -61,6 +61,16 @@ Please:
 
 ## Pull Requests
 
+If you would like to contribute a specific change, you can [create a pull request](https://github.com/ManiBecker/MyFirstMMBasicProgram/pulls).
+
+Before submitting a pull request, please make sure that:
+
+* The example has been tested.
+* The documentation is updated if necessary.
+* The changes remain beginner-friendly.
+
+## Pull Requests
+
 Before submitting a pull request, please make sure that:
 
 * The example has been tested.
