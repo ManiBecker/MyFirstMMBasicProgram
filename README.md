@@ -45,9 +45,20 @@ To keep the project organized, the repository uses the following documents:
 * **CONTRIBUTING.md** – How to contribute to the project
 * **TODO.md** – Current tasks and work in progress
 * **ROADMAP.md** – Planned milestones and future development
-* **CHANGELOG.md** *(coming later)* – History of completed changes and releases
+* **CHANGELOG.md** (coming later) – History of completed changes and releases
+* **LICENSE** – Overview of the licensing terms
+* **LICENSE-CC-BY-SA-4.0** – License for the tutorial and documentation
+* **LICENSE-MIT** – License for the MMBasic example programs
 
 This structure follows the conventions used by many well-maintained open-source projects and makes it easy for contributors to find the information they need.
 
-
 Please keep the examples simple and beginner-friendly whenever possible.
+
+## License
+
+This project uses separate licenses for the tutorial documentation and the MMBasic example programs:
+
+* **Tutorial and documentation:** [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-CC-BY-SA-4.0)
+* **MMBasic example programs (`*.bas`):** [MIT License](LICENSE-MIT)
+
+For details about which license applies to which part of the project, see the [LICENSE](LICENSE) file.
